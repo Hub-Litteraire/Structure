@@ -37,8 +37,12 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mx-auto">
-                        <a class="nav-link" href="{{ route('Gallery') }}">Gallery</a>
-                        <a class="nav-link" href="{{ route('Contact') }}">Contact</a>
+                        <a class="nav-link" href="{{ route('Users') }}">Users</a>
+                        <a class="nav-link" href="{{ route('Books') }}">Books</a>
+                        <a class="nav-link" href="{{ route('Groupes') }}">Groupes</a>
+                        <a class="nav-link" href="{{ route('Comments') }}">Comments</a>
+                        <a class="nav-link" href="{{ route('Likes') }}">Likes</a>
+                        <a class="nav-link" href="{{ route('Starts') }}">Starts</a>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -64,12 +68,6 @@
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ route('My_Profile') }}">
-                                        My Profile
-                                    </a>
-                                    <a class="dropdown-item" href="{{ route('My_Groupes') }}">
-                                        My Groupes
-                                    </a>
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                         onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
